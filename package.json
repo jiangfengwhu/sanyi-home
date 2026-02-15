@@ -31,7 +31,7 @@
     "build": "react-router build",
     "cf-typegen": "wrangler types",
     "check": "npm run build && wrangler deploy --dry-run",
-    "deploy": "wrangler deploy",
+    "deploy": "npm run build && wrangler deploy",
     "dev": "react-router dev",
     "start": "wrangler dev"
   },

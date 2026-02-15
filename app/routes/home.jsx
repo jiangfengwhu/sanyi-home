@@ -295,11 +295,11 @@ function AppCard({ app, index }) {
           <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/5 rounded-full -translate-y-1/2 translate-x-1/2" />
           <div className="absolute bottom-0 left-0 w-24 h-24 bg-purple-500/5 rounded-full translate-y-1/2 -translate-x-1/2" />
           <div className="relative text-center py-8">
-            <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg shadow-indigo-500/20">
-              <span className="text-3xl text-white font-bold">
-                {app.name.charAt(0)}
-              </span>
-            </div>
+            <img
+              src={app.icon}
+              alt={app.name}
+              className="w-20 h-20 mx-auto mb-4 rounded-2xl shadow-lg shadow-indigo-500/20 object-cover"
+            />
             <h4 className="text-2xl font-bold text-gray-900">{app.name}</h4>
             <p className="text-gray-500 text-sm">{app.englishName}</p>
           </div>
@@ -360,11 +360,13 @@ function Apps() {
   const apps = [
     {
       ...t("apps.neoledger"),
+      icon: "/images/appicons/neoledger.jpg",
       privacyLink: "/neoledger/privacy",
       appStoreLink: "https://apps.apple.com/us/app/neoledger/id6743987528",
     },
     {
       ...t("apps.keepy"),
+      icon: "/images/appicons/keepy.jpg",
       privacyLink: "/keepy/privacy",
       appStoreLink: null,
     },

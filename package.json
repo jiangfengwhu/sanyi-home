@@ -1,0 +1,39 @@
+{
+  "name": "sanyi-home",
+  "description": "JiangFeng's personal portfolio website.",
+  "dependencies": {
+    "@tailwindcss/postcss": "4.1.17",
+    "isbot": "5.1.32",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "react-router": "7.9.6",
+    "tailwindcss": "4.1.17"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.15.3",
+    "@react-router/dev": "7.9.6",
+    "@types/node": "24.10.1",
+    "autoprefixer": "10.4.22",
+    "hono": "4.11.1",
+    "vite": "^6.0.0",
+    "wrangler": "^4.65.0"
+  },
+  "engines": {
+    "node": ">=20.16.0 || >=22.3.0"
+  },
+  "overrides": {
+    "@react-router/dev": {
+      "wrangler": "4.56.0"
+    }
+  },
+  "private": true,
+  "scripts": {
+    "build": "react-router build",
+    "cf-typegen": "wrangler types",
+    "check": "npm run build && wrangler deploy --dry-run",
+    "deploy": "wrangler deploy",
+    "dev": "react-router dev",
+    "start": "wrangler dev"
+  },
+  "type": "module"
+}

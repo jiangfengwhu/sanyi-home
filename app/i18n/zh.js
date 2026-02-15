@@ -1,8 +1,8 @@
 export default {
   meta: {
-    title: "JiangFeng - 前端开发者 | 个人主页",
+    title: "Jiang Feng - 前端开发者 | 个人主页",
     description:
-      "前端开发者 JiangFeng 的个人主页，曾就职于小米、快手，专注于创建优雅且高效的用户界面，打造流畅的用户体验。",
+      "前端开发者 Jiang Feng 的个人主页，曾就职于小米、快手，专注于创建优雅且高效的用户界面，打造流畅的用户体验。",
     keywords:
       "前端开发,React,React Native,Swift,Golang,TypeScript,Node.js,小米,快手",
   },
@@ -15,7 +15,7 @@ export default {
   },
   hero: {
     greeting: "你好，我是",
-    name: "JiangFeng",
+    name: "Jiang Feng",
     role: "前端开发者",
     subtitle: "曾就职于小米、快手等知名企业",
     description:
@@ -34,6 +34,7 @@ export default {
   apps: {
     title: "我的应用",
     subtitle: "用心打造每一款产品，追求极致的用户体验",
+    downloadAppStore: "App Store 下载",
     neoledger: {
       name: "智帐",
       englishName: "NeoLedger",
@@ -73,7 +74,7 @@ export default {
     twitter: "Twitter",
   },
   footer: {
-    copyright: "© {year} JiangFeng. 保留所有权利。",
+    copyright: "© {year} Jiang Feng. 保留所有权利。",
     builtWith: "使用 React + Cloudflare Workers 构建",
   },
   privacy: {
@@ -82,7 +83,7 @@ export default {
   },
   neoledgerPrivacy: {
     title: "智帐 - 隐私政策",
-    intro: `智账 是一款由 JiangFeng（以下简称"我们"）提供的产品。您在使用我们的服务时，我们可能会收集和使用您的相关信息。我们希望通过本《隐私政策》向您说明，在使用我们的服务时，我们如何收集、使用、储存和分享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式。
+    intro: `智账 是一款由 Jiang Feng（以下简称"我们"）提供的产品。您在使用我们的服务时，我们可能会收集和使用您的相关信息。我们希望通过本《隐私政策》向您说明，在使用我们的服务时，我们如何收集、使用、储存和分享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式。
 
 本《隐私政策》与您所使用的智账服务息息相关，希望您仔细阅读，在需要时，按照本《隐私政策》的指引，作出您认为适当的选择。本《隐私政策》中涉及的相关技术词汇，我们尽量以简明扼要的表述，并提供进一步说明的链接，以便您的理解。
 

@@ -1,6 +1,6 @@
 {
   "name": "sanyi-home",
-  "description": "JiangFeng's personal portfolio website.",
+  "description": "Jiang Feng's personal portfolio website.",
   "dependencies": {
     "@tailwindcss/postcss": "4.1.17",
     "isbot": "5.1.32",

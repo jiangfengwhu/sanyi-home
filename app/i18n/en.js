@@ -1,8 +1,8 @@
 export default {
   meta: {
-    title: "JiangFeng - Frontend Developer | Portfolio",
+    title: "Jiang Feng - Frontend Developer | Portfolio",
     description:
-      "Portfolio of JiangFeng, a frontend developer formerly at Xiaomi and Kuaishou, focused on creating elegant and efficient user interfaces.",
+      "Portfolio of Jiang Feng, a frontend developer formerly at Xiaomi and Kuaishou, focused on creating elegant and efficient user interfaces.",
     keywords:
       "Frontend Developer,React,React Native,Swift,Golang,TypeScript,Node.js,Xiaomi,Kuaishou",
   },
@@ -15,7 +15,7 @@ export default {
   },
   hero: {
     greeting: "Hi, I'm",
-    name: "JiangFeng",
+    name: "Jiang Feng",
     role: "Frontend Developer",
     subtitle: "Formerly at Xiaomi & Kuaishou",
     description:
@@ -35,6 +35,7 @@ export default {
     title: "My Apps",
     subtitle:
       "Crafting every product with care, pursuing the ultimate user experience",
+    downloadAppStore: "Download on App Store",
     neoledger: {
       name: "NeoLedger",
       englishName: "NeoLedger",
@@ -74,7 +75,7 @@ export default {
     twitter: "Twitter",
   },
   footer: {
-    copyright: "© {year} JiangFeng. All rights reserved.",
+    copyright: "© {year} Jiang Feng. All rights reserved.",
     builtWith: "Built with React + Cloudflare Workers",
   },
   privacy: {
@@ -83,7 +84,7 @@ export default {
   },
   neoledgerPrivacy: {
     title: "NeoLedger - Privacy Policy",
-    intro: `NeoLedger is a product provided by JiangFeng (hereinafter referred to as "we"). When you use our services, we may collect and use your relevant information. We hope to explain to you through this Privacy Policy how we collect, use, store, and share this information when you use our services, and the ways we provide you to access, update, control, and protect this information.
+    intro: `NeoLedger is a product provided by Jiang Feng (hereinafter referred to as "we"). When you use our services, we may collect and use your relevant information. We hope to explain to you through this Privacy Policy how we collect, use, store, and share this information when you use our services, and the ways we provide you to access, update, control, and protect this information.
 
 This Privacy Policy is closely related to the NeoLedger services you use. We hope you will read it carefully and make choices you deem appropriate according to the guidance of this Privacy Policy when needed. We try to express the relevant technical terms in this Privacy Policy in a concise manner and provide links for further explanation for your understanding.
 

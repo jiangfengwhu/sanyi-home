@@ -17,10 +17,10 @@ function Document({ children }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="JiangFeng" />
+        <meta name="author" content="Jiang Feng" />
         <meta name="robots" content="index, follow" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="JiangFeng" />
+        <meta property="og:site_name" content="Jiang Feng" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="stylesheet" href={indexStylesHref} />

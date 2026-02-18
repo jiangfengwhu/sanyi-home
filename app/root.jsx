@@ -46,7 +46,7 @@ function Document({ children }) {
 
 export function Layout({ children }) {
   return (
-    <I18nProvider defaultLang="zh">
+    <I18nProvider>
       <Document>{children}</Document>
     </I18nProvider>
   );

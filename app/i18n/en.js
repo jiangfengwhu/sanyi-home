@@ -11,6 +11,7 @@ export default {
     apps: "Apps",
     about: "About",
     contact: "Contact",
+    support: "Support",
     langSwitch: "中文",
   },
   hero: {
@@ -81,6 +82,19 @@ export default {
   privacy: {
     backHome: "← Back to Home",
     lastUpdated: "Last Updated",
+  },
+  support: {
+    title: "App Support",
+    subtitle: "We're here to help",
+    backHome: "← Back to Home",
+    contactTitle: "Contact Us",
+    contactDesc: "If you encounter any issues, have feature suggestions, or need assistance, feel free to reach out to us through the following channels:",
+    emailLabel: "Email Support",
+    emailDesc: "Send us an email describing your issue and we'll get back to you within 1-2 business days.",
+    responseTime: "Typically responds within 1-2 business days",
+    appsTitle: "Supported Apps",
+    privacyPolicy: "Privacy Policy",
+    appStore: "App Store",
   },
   neoledgerPrivacy: {
     title: "NeoLedger - Privacy Policy",

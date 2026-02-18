@@ -11,6 +11,7 @@ export default {
     apps: "应用",
     about: "关于",
     contact: "联系",
+    support: "应用支持",
     langSwitch: "EN",
   },
   hero: {
@@ -80,6 +81,19 @@ export default {
   privacy: {
     backHome: "← 返回首页",
     lastUpdated: "最后更新",
+  },
+  support: {
+    title: "应用支持",
+    subtitle: "我们随时为您提供帮助",
+    backHome: "← 返回首页",
+    contactTitle: "联系我们",
+    contactDesc: "如果您在使用过程中遇到任何问题、有功能建议或需要帮助，欢迎通过以下方式联系我们：",
+    emailLabel: "邮件支持",
+    emailDesc: "发送邮件描述您的问题，我们将在 1-2 个工作日内回复。",
+    responseTime: "通常 1-2 个工作日内回复",
+    appsTitle: "支持的应用",
+    privacyPolicy: "隐私政策",
+    appStore: "App Store",
   },
   neoledgerPrivacy: {
     title: "智帐 - 隐私政策",

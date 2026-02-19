@@ -4,10 +4,22 @@ import {
   ScrollRestoration,
   isRouteErrorResponse,
   Link,
+  useRouteLoaderData,
 } from "react-router";
 import { I18nProvider, useI18n } from "./i18n/context";
 
 import indexStylesHref from "./index.css?url";
+
+export async function loader({ request, context }) {
+  let lang = context.detectedLang;
+  if (!lang) {
+    const acceptLanguage = request.headers.get("Accept-Language");
+    if (acceptLanguage && acceptLanguage.startsWith("en")) {
+      lang = "en";
+    }
+  }
+  return { lang: lang || "zh" };
+}
 
 function Document({ children }) {
   const { lang } = useI18n();
@@ -45,8 +57,11 @@ function Document({ children }) {
 }
 
 export function Layout({ children }) {
+  const rootData = useRouteLoaderData("root");
+  const defaultLang = rootData?.lang || "zh";
+
   return (
-    <I18nProvider>
+    <I18nProvider defaultLang={defaultLang}>
       <Document>{children}</Document>
     </I18nProvider>
   );

@@ -1,10 +1,4 @@
-import {
-  createContext,
-  useContext,
-  useState,
-  useCallback,
-  useEffect,
-} from "react";
+import { createContext, useContext, useState, useCallback } from "react";
 import zh from "./zh";
 import en from "./en";
 
@@ -12,18 +6,8 @@ const translations = { zh, en };
 
 const I18nContext = createContext(null);
 
-function detectSystemLang() {
-  if (typeof navigator === "undefined") return "zh";
-  const browserLang = navigator.language || navigator.userLanguage || "";
-  return browserLang.startsWith("zh") ? "zh" : "en";
-}
-
-export function I18nProvider({ children }) {
-  const [lang, setLang] = useState("zh");
-
-  useEffect(() => {
-    setLang(detectSystemLang());
-  }, []);
+export function I18nProvider({ children, defaultLang = "zh" }) {
+  const [lang, setLang] = useState(defaultLang);
 
   const t = useCallback(
     (key) => {

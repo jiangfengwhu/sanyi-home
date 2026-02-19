@@ -14,10 +14,17 @@ app.get("/.well-known/*", (c) => {
 	return c.json({ error: "Not found" }, 404);
 });
 
+function detectLang(request) {
+	const accept = request.headers.get("accept-language") || "";
+	const primary = accept.split(",")[0] || "";
+	return primary.toLowerCase().startsWith("zh") ? "zh" : "en";
+}
+
 // Handle React Router requests
 app.get("*", async (c) => {
 	return requestHandler(c.req.raw, {
 		cloudflare: { env: c.env, ctx: c.executionCtx },
+		detectedLang: detectLang(c.req.raw),
 	});
 });
 

@@ -32,7 +32,7 @@ export default function PrivacyLayout({ title, intro, sections }) {
           <div className="bg-gradient-to-r from-indigo-500 to-purple-600 px-8 py-10 text-white">
             <h1 className="text-2xl sm:text-3xl font-bold">{title}</h1>
             <p className="text-indigo-100 text-sm mt-2">
-              {t("privacy.lastUpdated")}: 2025-01-01
+              {t("privacy.lastUpdated")}: 2026-02-19
             </p>
           </div>
 

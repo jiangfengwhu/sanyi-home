@@ -88,9 +88,11 @@ export default {
     subtitle: "We're here to help",
     backHome: "← Back to Home",
     contactTitle: "Contact Us",
-    contactDesc: "If you encounter any issues, have feature suggestions, or need assistance, feel free to reach out to us through the following channels:",
+    contactDesc:
+      "If you encounter any issues, have feature suggestions, or need assistance, feel free to reach out to us through the following channels:",
     emailLabel: "Email Support",
-    emailDesc: "Send us an email describing your issue and we'll get back to you within 1-2 business days.",
+    emailDesc:
+      "Send us an email describing your issue and we'll get back to you within 1-2 business days.",
     responseTime: "Typically responds within 1-2 business days",
     appsTitle: "Supported Apps",
     privacyPolicy: "Privacy Policy",
@@ -183,7 +185,15 @@ This Privacy Policy is intended to explain to you how we collect, use, store, sh
 
 1.3 AI Feature Related Information
 
-When you use the AI smart assistant feature, the note content or conversation information you actively send to the AI may be transmitted to secure cloud servers for processing. We only use this data within the scope necessary to provide AI services and will not use it for other purposes.`,
+When you use the AI smart assistant feature, we will send the following personal information to third-party AI service providers to enable app functionality:
+
+(a) Images: Photos you select or take, used for AI understanding and recording.
+
+(b) Text Content: Notes, conversation inputs, and other text content you provide to the AI assistant.
+
+(c) Speech-to-Text Results: The text converted from your voice will be sent to the AI for processing.
+
+We select AI providers based on your region: users in mainland China use Alibaba's Tongyi Qianwen (Qwen), and users in other regions use OpenAI. The above data is transmitted securely (HTTPS) and is used solely for providing AI functionality, not for advertising, tracking, or other purposes. See Section 4 for details on information sharing.`,
       },
       {
         title: "2. Use of Information",
@@ -222,7 +232,7 @@ We take the following measures to protect your information:
 
 (a) Sharing with your explicit consent.
 
-(b) Transmitting necessary data to AI service providers for processing to provide AI services. We require AI service providers to strictly comply with data protection agreements.
+(b) Third-Party AI Service Providers: To provide AI functionality, we send images, text content, and speech-to-text results to AI service providers. Users in mainland China use Alibaba's Tongyi Qianwen (Qwen), and users in other regions use OpenAI. These providers use the data solely for implementing AI functionality. We require them to comply with data protection agreements and not use data for advertising or tracking.
 
 (c) As required by laws, regulations, legal procedures, or mandatory requirements of government agencies.
 

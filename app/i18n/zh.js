@@ -1,8 +1,8 @@
 export default {
   meta: {
-    title: "Jiang Feng - 前端开发者 | 个人主页",
+    title: "丰哥浪迹天涯 - 前端开发者 | 个人主页",
     description:
-      "前端开发者 Jiang Feng 的个人主页，曾就职于小米、快手，专注于创建优雅且高效的用户界面，打造流畅的用户体验。",
+      "前端开发者 丰哥浪迹天涯 的个人主页，曾就职于小米、快手，专注于创建优雅且高效的用户界面，打造流畅的用户体验。",
     keywords:
       "前端开发,React,React Native,Swift,Golang,TypeScript,Node.js,小米,快手",
   },
@@ -16,9 +16,9 @@ export default {
   },
   hero: {
     greeting: "你好，我是",
-    name: "Jiang Feng",
+    name: "丰哥浪迹天涯",
     role: "前端开发者",
-    subtitle: "曾就职于小米、快手等知名企业",
+    subtitle: "曾就职于小米、快手",
     description:
       "专注于创建优雅且高效的用户界面，打造流畅的用户体验。用技术解决实际问题，创造真正有价值的产品。",
     viewApps: "查看我的应用",
@@ -27,7 +27,7 @@ export default {
   about: {
     title: "关于我",
     paragraph1:
-      "我是一名充满热情的前端开发者，曾就职于小米、快手等知名企业。专注于创建优雅且高效的用户界面，打造流畅的用户体验。",
+      "我是一名充满热情的前端开发者，曾就职于小米、快手等企业。专注于创建优雅且高效的用户界面，打造流畅的用户体验。",
     paragraph2:
       "我的职业理念是用技术解决实际问题，创造真正有价值的产品。无论是 Web 应用、移动端还是跨平台开发，我都致力于打造用户体验出色、性能优异的应用。",
     techStackTitle: "技术栈",
@@ -36,6 +36,7 @@ export default {
     title: "我的应用",
     subtitle: "用心打造每一款产品，追求极致的用户体验",
     downloadAppStore: "App Store 下载",
+    downloadAndroid: "安卓下载",
     neoledger: {
       name: "智帐",
       englishName: "NeoLedger",
@@ -75,7 +76,7 @@ export default {
     twitter: "Twitter",
   },
   footer: {
-    copyright: "© {year} Jiang Feng. 保留所有权利。",
+    copyright: "© {year} 丰哥浪迹天涯. 保留所有权利。",
     builtWith: "使用 React + Cloudflare Workers 构建",
   },
   privacy: {
@@ -98,13 +99,13 @@ export default {
   },
   neoledgerPrivacy: {
     title: "智帐 - 隐私政策",
-    intro: `智账 是一款由 Jiang Feng（以下简称"我们"）提供的产品。您在使用我们的服务时，我们可能会收集和使用您的相关信息。我们希望通过本《隐私政策》向您说明，在使用我们的服务时，我们如何收集、使用、储存和分享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式。
+    intro: `智账 是一款由 丰哥浪迹天涯（以下简称"我们"）提供的产品。您在使用我们的服务时，我们可能会收集和使用您的相关信息。我们希望通过本《隐私政策》向您说明，在使用我们的服务时，我们如何收集、使用、储存和分享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式。
 
 本《隐私政策》与您所使用的智账服务息息相关，希望您仔细阅读，在需要时，按照本《隐私政策》的指引，作出您认为适当的选择。本《隐私政策》中涉及的相关技术词汇，我们尽量以简明扼要的表述，并提供进一步说明的链接，以便您的理解。
 
 您使用或继续使用我们的服务，即意味着同意我们按照本《隐私政策》收集、使用、储存和分享您的相关信息。
 
-如对本《隐私政策》或相关事宜有任何问题，请通过 yangy0324@hotmail.com 与我们联系。`,
+如对本《隐私政策》或相关事宜有任何问题，请通过 jiangfengwhu2011@gmail.com 与我们联系。`,
     sections: [
       {
         title: "1. 我们收集的信息",
@@ -275,7 +276,7 @@ export default {
         content: `如您对本隐私政策有任何疑问、意见或建议，或者您需要行使个人信息相关权利，请通过以下方式联系我们：
 
 应用名称：妙记
-邮箱：809740942@qq.com
+邮箱：jiangfengwhu2011@gmail.com
 
 我们将在收到您的请求后 15 个工作日内予以回复。`,
       },

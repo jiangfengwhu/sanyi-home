@@ -5,18 +5,18 @@ import { Link } from "react-router";
 // SEO meta for home page
 export function meta() {
   return [
-    { title: "Jiang Feng - Frontend Developer | 前端开发者" },
+    { title: "丰哥浪迹天涯 - Frontend Developer | 前端开发者" },
     {
       name: "description",
       content:
-        "前端开发者 Jiang Feng 的个人主页，曾就职于小米、快手，专注于创建优雅且高效的用户界面。Portfolio of Jiang Feng, a frontend developer formerly at Xiaomi and Kuaishou.",
+        "前端开发者 丰哥浪迹天涯 的个人主页，曾就职于小米、快手，专注于创建优雅且高效的用户界面。Portfolio of 丰哥浪迹天涯, a frontend developer formerly at Xiaomi and Kuaishou.",
     },
     {
       name: "keywords",
       content:
-        "Jiang Feng,前端开发,Frontend Developer,React,React Native,Swift,Golang,TypeScript,Node.js",
+        "丰哥浪迹天涯,前端开发,Frontend Developer,React,React Native,Swift,Golang,TypeScript,Node.js",
     },
-    { property: "og:title", content: "Jiang Feng - Frontend Developer" },
+    { property: "og:title", content: "丰哥浪迹天涯 - Frontend Developer" },
     {
       property: "og:description",
       content:
@@ -132,6 +132,14 @@ function AppleIcon() {
   );
 }
 
+function AndroidIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="w-5 h-5" fill="currentColor">
+      <path d="M17.523 15.341a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5zm-11.046 0a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5zM6.44 3.617l1.51 2.633A7.942 7.942 0 0 0 4 12h16a7.942 7.942 0 0 0-3.95-5.75l1.51-2.633a.25.25 0 0 0-.092-.341.25.25 0 0 0-.341.092L15.6 5.997a7.964 7.964 0 0 0-7.2 0L6.873 3.368a.25.25 0 0 0-.341-.092.25.25 0 0 0-.092.341zM4 13v5a2 2 0 0 0 2 2h1v2.5a1.5 1.5 0 0 0 3 0V20h4v2.5a1.5 1.5 0 0 0 3 0V20h1a2 2 0 0 0 2-2v-5H4z" />
+    </svg>
+  );
+}
+
 // Navigation bar
 function Navbar() {
   const { t, toggleLang, lang } = useI18n();
@@ -139,7 +147,6 @@ function Navbar() {
   const closeMobileMenu = useCallback(() => setMobileMenuOpen(false), []);
 
   const navLinks = [
-    { href: "#about", label: t("nav.about") },
     { href: "#apps", label: t("nav.apps") },
     { href: "#contact", label: t("nav.contact") },
   ];
@@ -152,10 +159,12 @@ function Navbar() {
             to="/"
             className="flex items-center gap-2 text-xl font-bold text-gray-900"
           >
-            <span className="w-8 h-8 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg flex items-center justify-center text-white text-sm font-bold">
-              F
-            </span>
-            <span>Jiang Feng</span>
+            <img
+              src="/images/avatar.jpg"
+              alt="avatar"
+              className="w-8 h-8 rounded-lg object-cover"
+            />
+            <span>丰哥浪迹天涯</span>
           </Link>
 
           {/* Desktop links */}
@@ -279,7 +288,7 @@ function Hero() {
           <span className="text-sm text-gray-300">{t("hero.subtitle")}</span>
         </div>
 
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
           {t("hero.greeting")}
           <br />
           <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
@@ -291,9 +300,6 @@ function Hero() {
           {t("hero.role")}
         </p>
 
-        <p className="text-base sm:text-lg text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-          {t("hero.description")}
-        </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
@@ -421,6 +427,17 @@ function AppCard({ app, index }) {
               {t("apps.downloadAppStore")}
             </a>
           )}
+          {app.androidDownloadLink && (
+            <a
+              href={app.androidDownloadLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-green-700 text-white text-sm font-medium rounded-full hover:bg-green-600 transition-all hover:scale-105"
+            >
+              <AndroidIcon />
+              {t("apps.downloadAndroid")}
+            </a>
+          )}
           <Link
             to={app.privacyLink}
             className="inline-flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors"
@@ -450,6 +467,8 @@ function Apps() {
       icon: "/images/appicons/keepy.jpg",
       privacyLink: "/keepy/privacy",
       appStoreLink: null,
+      androidDownloadLink:
+        "https://r2.308893.xyz/android_apps/keepy/keepy-1.0.0.apk",
     },
   ];
 
@@ -495,8 +514,8 @@ function Contact() {
     {
       icon: <EmailIcon />,
       label: t("contact.email"),
-      href: "mailto:yangy0324@hotmail.com",
-      text: "yangy0324@hotmail.com",
+      href: "mailto:jiangfengwhu2011@gmail.com",
+      text: "jiangfengwhu2011@gmail.com",
       hoverColor: "hover:border-indigo-500 hover:text-indigo-600",
     },
   ];
@@ -559,7 +578,6 @@ export default function Home() {
     <div className="min-h-screen">
       <Navbar />
       <Hero />
-      <About />
       <Apps />
       <Contact />
       <Footer />

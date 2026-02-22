@@ -66,7 +66,7 @@ export default function PrivacyLayout({ title, intro, sections }) {
 
       {/* Footer */}
       <footer className="py-8 text-center text-sm text-gray-400">
-        <p>© {new Date().getFullYear()} Jiang Feng. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} 丰哥浪迹天涯. All rights reserved.</p>
       </footer>
     </div>
   );

@@ -1,8 +1,8 @@
 export default {
   meta: {
-    title: "Jiang Feng - Frontend Developer | Portfolio",
+    title: "丰哥浪迹天涯 - Frontend Developer | Portfolio",
     description:
-      "Portfolio of Jiang Feng, a frontend developer formerly at Xiaomi and Kuaishou, focused on creating elegant and efficient user interfaces.",
+      "Portfolio of 丰哥浪迹天涯, a frontend developer formerly at Xiaomi and Kuaishou, focused on creating elegant and efficient user interfaces.",
     keywords:
       "Frontend Developer,React,React Native,Swift,Golang,TypeScript,Node.js,Xiaomi,Kuaishou",
   },
@@ -16,7 +16,7 @@ export default {
   },
   hero: {
     greeting: "Hi, I'm",
-    name: "Jiang Feng",
+    name: "丰哥浪迹天涯",
     role: "Frontend Developer",
     subtitle: "Formerly at Xiaomi & Kuaishou",
     description:
@@ -37,6 +37,7 @@ export default {
     subtitle:
       "Crafting every product with care, pursuing the ultimate user experience",
     downloadAppStore: "Download on App Store",
+    downloadAndroid: "Android Download",
     neoledger: {
       name: "NeoLedger",
       englishName: "NeoLedger",
@@ -76,7 +77,7 @@ export default {
     twitter: "Twitter",
   },
   footer: {
-    copyright: "© {year} Jiang Feng. All rights reserved.",
+    copyright: "© {year} 丰哥浪迹天涯. All rights reserved.",
     builtWith: "Built with React + Cloudflare Workers",
   },
   privacy: {
@@ -100,13 +101,13 @@ export default {
   },
   neoledgerPrivacy: {
     title: "NeoLedger - Privacy Policy",
-    intro: `NeoLedger is a product provided by Jiang Feng (hereinafter referred to as "we"). When you use our services, we may collect and use your relevant information. We hope to explain to you through this Privacy Policy how we collect, use, store, and share this information when you use our services, and the ways we provide you to access, update, control, and protect this information.
+    intro: `NeoLedger is a product provided by 丰哥浪迹天涯 (hereinafter referred to as "we"). When you use our services, we may collect and use your relevant information. We hope to explain to you through this Privacy Policy how we collect, use, store, and share this information when you use our services, and the ways we provide you to access, update, control, and protect this information.
 
 This Privacy Policy is closely related to the NeoLedger services you use. We hope you will read it carefully and make choices you deem appropriate according to the guidance of this Privacy Policy when needed. We try to express the relevant technical terms in this Privacy Policy in a concise manner and provide links for further explanation for your understanding.
 
 By using or continuing to use our services, you agree to our collection, use, storage, and sharing of your relevant information in accordance with this Privacy Policy.
 
-If you have any questions about this Privacy Policy or related matters, please contact us at yangy0324@hotmail.com.`,
+If you have any questions about this Privacy Policy or related matters, please contact us at jiangfengwhu2011@gmail.com.`,
     sections: [
       {
         title: "1. Information We Collect",
@@ -277,7 +278,7 @@ All of the above permissions are optional, will only be requested when you use t
         content: `If you have any questions, comments, or suggestions about this Privacy Policy, or if you need to exercise your personal information related rights, please contact us through the following:
 
 App Name: Keepy
-Email: 809740942@qq.com
+Email: jiangfengwhu2011@gmail.com
 
 We will respond within 15 business days of receiving your request.`,
       },

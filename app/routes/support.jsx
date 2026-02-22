@@ -161,10 +161,10 @@ export default function Support() {
                   {support.emailDesc}
                 </p>
                 <a
-                  href="mailto:yangy0324@hotmail.com"
+                  href="mailto:jiangfengwhu2011@gmail.com"
                   className="text-indigo-600 hover:text-indigo-700 font-medium transition-colors"
                 >
-                  yangy0324@hotmail.com
+                  jiangfengwhu2011@gmail.com
                 </a>
                 <p className="text-xs text-gray-400 mt-2">
                   {support.responseTime}
@@ -188,7 +188,7 @@ export default function Support() {
       </main>
 
       <footer className="py-8 text-center text-sm text-gray-400">
-        <p>© {new Date().getFullYear()} Jiang Feng. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} 丰哥浪迹天涯. All rights reserved.</p>
       </footer>
     </div>
   );

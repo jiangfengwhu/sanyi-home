@@ -1,6 +1,6 @@
 {
   "name": "sanyi-home",
-  "description": "Jiang Feng's personal portfolio website.",
+  "description": "丰哥浪迹天涯's personal portfolio website.",
   "dependencies": {
     "@tailwindcss/postcss": "4.1.17",
     "isbot": "5.1.32",
@@ -23,7 +23,7 @@
   },
   "overrides": {
     "@react-router/dev": {
-      "wrangler": "4.56.0"
+      "wrangler": "^4.65.0"
     }
   },
   "private": true,
@@ -32,8 +32,8 @@
     "cf-typegen": "wrangler types",
     "check": "npm run build && wrangler deploy --dry-run",
     "deploy": "npm run build && wrangler deploy",
-    "dev": "react-router dev",
-    "start": "wrangler dev"
+    "dev": "NODE_OPTIONS=--no-deprecation react-router dev",
+    "start": "NODE_OPTIONS=--no-deprecation wrangler dev"
   },
   "type": "module"
 }
